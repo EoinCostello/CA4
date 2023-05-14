@@ -1,1 +1,23 @@
+// MyMathTest.java
+package Maven_Project;
+
+import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+
+import static org.junit.Assert.assertEquals;
+
+public class MyMathTest {
+	
+	@Test
+	public void testadd() {
+		int result = MyMathTest.addition(2, 3);
+        Assertions.assertEquals(5, result);
+
+	}
+
+	private static int addition(int i, int j) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+}
 
