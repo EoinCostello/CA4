@@ -33,6 +33,18 @@ public class MyMathTest {
     	
     }
 	
+ @Test
+    public void testDivide() {
+        // add test case here
+    	int result = MyMathTest.devision(6,3);
+        Assertions.assertEquals(2, result);
+    }
+
+
+	private static int devision(int i, int j) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 
 	private static int multiplication(int i, int j) {
 		// TODO Auto-generated method stub
