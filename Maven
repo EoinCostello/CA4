@@ -24,7 +24,20 @@ public class MyMathTest {
         Assertions.assertEquals(2, result);
 	
     }
+    @Test
+    public void testMultiply() {
+        // add test case here
+    	int result = MyMathTest.multiplication(2, 3);
+        Assertions.assertEquals(6, result);
+	
+    	
+    }
+	
 
+	private static int multiplication(int i, int j) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 
 	private static int subtraction(int i, int j) {
 		// TODO Auto-generated method stub
