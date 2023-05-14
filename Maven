@@ -10,9 +10,25 @@ public class MyMathTest {
 	
 	@Test
 	public void testadd() {
+			//add test case here
 		int result = MyMathTest.addition(2, 3);
         Assertions.assertEquals(5, result);
 
+	}
+
+	
+    @Test
+    public void testSubtract() {
+		// add test case here
+        int result = MyMathTest.subtraction(5, 3);
+        Assertions.assertEquals(2, result);
+	
+    }
+
+
+	private static int subtraction(int i, int j) {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 	private static int addition(int i, int j) {
