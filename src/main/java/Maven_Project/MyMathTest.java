@@ -1,0 +1,62 @@
+// MyMathTest.java
+package Maven_Project;
+
+import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+
+public class MyMathTest {
+	
+	@Test
+	public void testadd() {
+		// add test case here
+		int result = MyMathTest.addition(2, 3);
+        Assertions.assertEquals(5, result);
+
+	}
+	
+    @Test
+    public void testSubtract() {
+		// add test case here
+        int result = MyMathTest.subtraction(5, 3);
+        Assertions.assertEquals(2, result);
+	
+    }
+
+    @Test
+    public void testMultiply() {
+        // add test case here
+    	int result = MyMathTest.multiplication(2, 3);
+        Assertions.assertEquals(6, result);
+	
+    	
+    }
+	
+    @Test
+    public void testDivide() {
+        // add test case here
+    	int result = MyMathTest.devision(6,3);
+        Assertions.assertEquals(2, result);
+    }
+
+
+	private static int devision(int i, int j) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	private static int multiplication(int i, int j) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	private static int subtraction(int i, int j) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	private static int addition(int i, int j) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+}
+
