@@ -9,8 +9,9 @@ public class MyMath {
         // add Sum here
     	return a-b;
     }
-    public void myMultiply(int a, int b) {
+     public int myMultiply(int a, int b) {
         // add Sum here
+    	return a*b;
     }
     public void myDivide(int a, int b) {
         // add Sum here
