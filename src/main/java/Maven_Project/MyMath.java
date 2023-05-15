@@ -5,8 +5,9 @@ public class MyMath {
         // add Sum here
 		return a+b;
 	}
-    public void mySubtract(int a, int b) {
+    public int mySubtract(int a, int b) {
         // add Sum here
+    	return a-b;
     }
     public void myMultiply(int a, int b) {
         // add Sum here
