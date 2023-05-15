@@ -13,8 +13,12 @@ public class MyMath {
         // add Sum here
     	return a*b;
     }
-    public void myDivide(int a, int b) {
+     public int myDivide(int a, int b) {
         // add Sum here
+        if (b == 0) {
+            throw new IllegalArgumentException("Cannot divide by zero");
+        }
+        return a / b;
     }
 
 }
