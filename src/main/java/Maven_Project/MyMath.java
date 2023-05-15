@@ -19,6 +19,7 @@ public class MyMath {
             throw new IllegalArgumentException("Cannot divide by zero");
         }
         return a / b;
+	     
     }
 
 }
