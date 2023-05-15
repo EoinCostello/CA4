@@ -1,8 +1,9 @@
 package Maven_Project;
 
 public class MyMath {
-	public void myAdd(int a, int b) {
+	public int myAdd(int a, int b) {
         // add Sum here
+		return a+b;
 	}
     public void mySubtract(int a, int b) {
         // add Sum here
