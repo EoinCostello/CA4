@@ -1,36 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="5" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="0" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-21T16:02:48 IST" name="Default suite" finished-at="2023-05-21T16:02:48 IST" duration-ms="56">
+  <suite started-at="2023-05-21T16:56:42 IST" name="Default suite" finished-at="2023-05-21T16:56:42 IST" duration-ms="94">
     <groups>
     </groups>
-    <test started-at="2023-05-21T16:02:48 IST" name="Default test" finished-at="2023-05-21T16:02:48 IST" duration-ms="56">
-      <class name="gradle.GeometryTestTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:gradle.GeometryTestTest@31368b99]" started-at="2023-05-21T16:02:48 IST" name="beforeSuite" finished-at="2023-05-21T16:02:48 IST" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:gradle.GeometryTestTest@31368b99]" started-at="2023-05-21T16:02:48 IST" name="beforeTest" finished-at="2023-05-21T16:02:48 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:gradle.GeometryTestTest@31368b99]" started-at="2023-05-21T16:02:48 IST" name="beforeClass" finished-at="2023-05-21T16:02:48 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:gradle.GeometryTestTest@31368b99]" started-at="2023-05-21T16:02:48 IST" name="beforeMethod" finished-at="2023-05-21T16:02:48 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testSurfaceAreaSphereTest()[pri:0, instance:gradle.GeometryTestTest@31368b99]" started-at="2023-05-21T16:02:48 IST" name="testSurfaceAreaSphereTest" finished-at="2023-05-21T16:02:48 IST" duration-ms="11" status="FAIL">
-          <exception class="java.lang.RuntimeException">
+    <test started-at="2023-05-21T16:56:42 IST" name="Default test" finished-at="2023-05-21T16:56:42 IST" duration-ms="94">
+      <class name="gradle.GeometryTest">
+        <test-method signature="testAreaRect()[pri:0, instance:gradle.GeometryTest@5c909414]" started-at="2023-05-21T16:56:42 IST" name="testAreaRect" finished-at="2023-05-21T16:56:42 IST" duration-ms="18" status="FAIL">
+          <exception class="java.lang.Error">
             <message>
-              <![CDATA[Test not implemented]]>
+              <![CDATA[Unresolved compilation problems: 
+The method areaRect(float, float) in the type Geometry is not applicable for the arguments (double, double)
+The method areaRect(float, float) in the type Geometry is not applicable for the arguments (double, double)
+The method areaRect(float, float) in the type Geometry is not applicable for the arguments (double, double)
+The method areaRect(float, float) in the type Geometry is not applicable for the arguments (double, double)
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: Test not implemented
-at gradle.GeometryTestTest.testSurfaceAreaSphereTest(GeometryTestTest.java:71)
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+The method areaRect(float, float) in the type Geometry is not applicable for the arguments (double, double)
+The method areaRect(float, float) in the type Geometry is not applicable for the arguments (double, double)
+The method areaRect(float, float) in the type Geometry is not applicable for the arguments (double, double)
+The method areaRect(float, float) in the type Geometry is not applicable for the arguments (double, double)
+
+at gradle.GeometryTest.testAreaRect(GeometryTest.java:13)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -59,27 +53,161 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSurfaceAreaSphereTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:gradle.GeometryTestTest@31368b99]" started-at="2023-05-21T16:02:48 IST" name="afterMethod" finished-at="2023-05-21T16:02:48 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- testAreaRect -->
+        <test-method signature="testPerimeterRect()[pri:0, instance:gradle.GeometryTest@5c909414]" started-at="2023-05-21T16:56:42 IST" name="testPerimeterRect" finished-at="2023-05-21T16:56:42 IST" duration-ms="5" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+The method perimeterRect(float, float) in the type Geometry is not applicable for the arguments (double, double)
+The method perimeterRect(float, float) in the type Geometry is not applicable for the arguments (double, double)
+The method perimeterRect(float, float) in the type Geometry is not applicable for the arguments (double, double)
+The method perimeterRect(float, float) in the type Geometry is not applicable for the arguments (double, double)
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+The method perimeterRect(float, float) in the type Geometry is not applicable for the arguments (double, double)
+The method perimeterRect(float, float) in the type Geometry is not applicable for the arguments (double, double)
+The method perimeterRect(float, float) in the type Geometry is not applicable for the arguments (double, double)
+The method perimeterRect(float, float) in the type Geometry is not applicable for the arguments (double, double)
+
+at gradle.GeometryTest.testPerimeterRect(GeometryTest.java:25)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:gradle.GeometryTestTest@31368b99]" started-at="2023-05-21T16:02:48 IST" name="afterClass" finished-at="2023-05-21T16:02:48 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- testPerimeterRect -->
+        <test-method signature="testSurfaceAreaSphere()[pri:0, instance:gradle.GeometryTest@5c909414]" started-at="2023-05-21T16:56:42 IST" name="testSurfaceAreaSphere" finished-at="2023-05-21T16:56:42 IST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+The method surfaceAreaSphere(float) in the type Geometry is not applicable for the arguments (double)
+The method surfaceAreaSphere(float) in the type Geometry is not applicable for the arguments (double)
+The method surfaceAreaSphere(float) in the type Geometry is not applicable for the arguments (double)
+The method surfaceAreaSphere(float) in the type Geometry is not applicable for the arguments (double)
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+The method surfaceAreaSphere(float) in the type Geometry is not applicable for the arguments (double)
+The method surfaceAreaSphere(float) in the type Geometry is not applicable for the arguments (double)
+The method surfaceAreaSphere(float) in the type Geometry is not applicable for the arguments (double)
+The method surfaceAreaSphere(float) in the type Geometry is not applicable for the arguments (double)
+
+at gradle.GeometryTest.testSurfaceAreaSphere(GeometryTest.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:gradle.GeometryTestTest@31368b99]" started-at="2023-05-21T16:02:48 IST" name="afterTest" finished-at="2023-05-21T16:02:48 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- testSurfaceAreaSphere -->
+        <test-method signature="testVolumeSphere()[pri:0, instance:gradle.GeometryTest@5c909414]" started-at="2023-05-21T16:56:42 IST" name="testVolumeSphere" finished-at="2023-05-21T16:56:42 IST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+The method volumeSphere(float) in the type Geometry is not applicable for the arguments (double)
+The method volumeSphere(float) in the type Geometry is not applicable for the arguments (double)
+The method volumeSphere(float) in the type Geometry is not applicable for the arguments (double)
+The method volumeSphere(float) in the type Geometry is not applicable for the arguments (double)
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+The method volumeSphere(float) in the type Geometry is not applicable for the arguments (double)
+The method volumeSphere(float) in the type Geometry is not applicable for the arguments (double)
+The method volumeSphere(float) in the type Geometry is not applicable for the arguments (double)
+The method volumeSphere(float) in the type Geometry is not applicable for the arguments (double)
+
+at gradle.GeometryTest.testVolumeSphere(GeometryTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:gradle.GeometryTestTest@31368b99]" started-at="2023-05-21T16:02:48 IST" name="afterSuite" finished-at="2023-05-21T16:02:48 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- gradle.GeometryTestTest -->
+        </test-method> <!-- testVolumeSphere -->
+      </class> <!-- gradle.GeometryTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

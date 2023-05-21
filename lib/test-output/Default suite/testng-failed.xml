@@ -3,19 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="gradle.GeometryTestTest">
+      <class name="gradle.GeometryTest">
         <methods>
-          <include name="afterClass"/>
-          <include name="beforeTest"/>
-          <include name="afterTest"/>
-          <include name="testSurfaceAreaSphereTest"/>
-          <include name="beforeSuite"/>
-          <include name="afterSuite"/>
-          <include name="afterMethod"/>
-          <include name="beforeMethod"/>
-          <include name="beforeClass"/>
+          <include name="testAreaRect"/>
+          <include name="testVolumeSphere"/>
+          <include name="testSurfaceAreaSphere"/>
+          <include name="testPerimeterRect"/>
         </methods>
-      </class> <!-- gradle.GeometryTestTest -->
+      </class> <!-- gradle.GeometryTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

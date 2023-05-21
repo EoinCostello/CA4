@@ -2,7 +2,7 @@ package gradle;
 
 public class Geometry {
 
-    public float areaRect(float width, float height) {
+    public static float areaRect(float width, float height) {
         // areaRect() method
         return 0;
     }
