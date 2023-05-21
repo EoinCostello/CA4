@@ -9,5 +9,8 @@ public class GeometryTest {
     public void testAreaRect() {
         // Add test case 
     }
-
+   @Test
+    public void testPerimeterRect() {
+        // Add test case
+    }
 }
