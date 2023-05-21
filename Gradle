@@ -10,13 +10,18 @@ public class GeometryTest {
         // Add test case 
     }
   
-  @Test
+    @Test
     public void testPerimeterRect() {
         // Add test case
     }
     
     @Test
     public void testVolumeSphere() {
+        // Add test case
+    }
+    
+    @Test
+    public void testSurfaceAreaSphere() {
         // Add test case
     }
 }
