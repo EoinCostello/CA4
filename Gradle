@@ -1,1 +1,13 @@
+package gradle;
 
+import org.testng.annotations.Test;
+
+public class GeometryTest {
+
+	
+    @Test
+    public void testAreaRect() {
+        // Add test case 
+    }
+
+}
