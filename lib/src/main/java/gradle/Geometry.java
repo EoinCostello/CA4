@@ -2,14 +2,14 @@ package gradle;
 
 public class Geometry {
 
-    public static float areaRect(float width, float height) {
+    public static float areaRect(double d, double e) {
         // areaRect() method
-        return 0;
+        return (float) (d*e);
     }
 
-    public float perimeterRect(float width, float height) {
+    public static double perimeterRect(double d, double e) {
         // perimeterRect() method
-        return 0;
+        return 2*(d + e);
     }
 
     public float volumeSphere(float radius) {
@@ -22,4 +22,3 @@ public class Geometry {
         return 0;
     }
 }
-
