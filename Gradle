@@ -9,8 +9,8 @@ public class GeometryTest {
   
   		@Test
   		public void testAreaRect() {
-	       // Test case 1
-  			Assert.assertEquals(Geometry.areaRect(5.0, 10.0), 50, EPSILON);
+	        // Test case 1
+  		Assert.assertEquals(Geometry.areaRect(5.0, 10.0), 50, EPSILON);
 	        // Test case 2
 	        Assert.assertEquals(Geometry.areaRect(2.5, 7.0), 17.5, EPSILON);
 	        // Test case 3
@@ -19,8 +19,8 @@ public class GeometryTest {
 	        Assert.assertEquals(Geometry.areaRect(8.0, 12.0), 96.0, EPSILON);
 	      }
 	      
-	      @Test
-	      public void testPerimeterRect() {
+		@Test	
+		public void testPerimeterRect() {
 	        // Test case 1
 	        Assert.assertEquals(Geometry.perimeterRect(5.0, 10.0), 30.0, EPSILON);
 	        // Test case 2
@@ -31,8 +31,8 @@ public class GeometryTest {
 	        Assert.assertEquals(Geometry.perimeterRect(8.0, 12.0), 40.0, EPSILON);
 	      }
 	      
-	     @Test
-	      public void testVolumeSphere() {
+	        @Test
+	        public void testVolumeSphere() {
 	        // Test case 1
 	        Assert.assertEquals(Geometry.volumeSphere(2.0), 33.51, EPSILON);
 	        // Test case 2
@@ -43,8 +43,8 @@ public class GeometryTest {
 	        Assert.assertEquals(Geometry.volumeSphere(7.0), 1436.76, EPSILON);
 	      }
 	      
-	      @Test
-	      public void testSurfaceAreaSphere() {
+	        @Test
+	        public void testSurfaceAreaSphere() {
 	        // Test case 1
 	        Assert.assertEquals(Geometry.surfaceAreaSphere(2.0), 50.27, EPSILON);
 	        // Test case 2
