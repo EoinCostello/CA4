@@ -15,7 +15,6 @@ public class MyMathTest {
         Assertions.assertEquals(5, result);
 
 	}
-
 	
     @Test
     public void testSubtract() {
@@ -29,7 +28,6 @@ public class MyMathTest {
         // add test case here
     	int result = MyMathTest.multiplication(2, 3);
         Assertions.assertEquals(6, result);
-	
     	
     }
 	
@@ -39,7 +37,6 @@ public class MyMathTest {
     	int result = MyMathTest.devision(6,3);
         Assertions.assertEquals(2, result);
     }
-
 
 	private static int devision(int i, int j) {
 		// TODO Auto-generated method stub
@@ -61,4 +58,3 @@ public class MyMathTest {
 		return 0;
 	}
 }
-
